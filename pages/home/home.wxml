@@ -1,0 +1,15 @@
+<view class="home">
+
+<w-swiper banner="{{banner}}"></w-swiper>
+<w-recommend recommend="{{recommend}}" bind:imageLoad="imageLoad"></w-recommend>
+<w-popular></w-popular>
+<tab-control titles="{{titles}}" bind:tabclick="tabclick" class="tab2"/>
+<w-goods list="{{goods[currentType].list}}"></w-goods>
+<w-backtop class="backtop" bind:tap="backtop" wx:if="{{isShow}}" ></w-backtop>
+</view>
+
+<tab-control titles="{{titles}}"
+ bind:tabclick="tabclick" 
+ class="tabcontrol1"
+ wx:if="{{tabShow}}"
+/>

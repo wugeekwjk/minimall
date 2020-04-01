@@ -1,0 +1,18 @@
+/* pages/home/home.wxss */
+.backtop{
+  position: fixed;
+  bottom: 10rpx;
+  right: 20rpx;
+}
+.backtop image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.tabcontrol1{
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
